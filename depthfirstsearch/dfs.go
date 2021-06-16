@@ -23,4 +23,5 @@ func (n *Node) BreadthFirstSearch(array []int) []int {
 			queue = append(queue, child)
 		}
 	}
+	return array
 }
